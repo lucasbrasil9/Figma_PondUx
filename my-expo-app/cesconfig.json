@@ -18,7 +18,7 @@
   },
   "packageManager": {
     "type": "npm",
-    "version": "2.15.12"
+    "version": "10.9.2"
   },
   "os": {
     "type": "Windows_NT",
