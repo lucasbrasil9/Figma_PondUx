@@ -46,5 +46,4 @@ Apagar o arquivo package-lock.json (ou yarn.lock).
 Reinstalar com npm install.
 
 - Autores - Lucas Paiva Brasil e Henrique Botti
-- [Link Repositório](https://github.com/lucasbrasil9/Figma_PondUx)
 - [Link Figma](https://www.figma.com/design/2Ym1Z3dyeOlvnOJIxUNdGi/Pond-Figma-Ux?node-id=0-1&t=d0xctCHB6hz1GckX-1)
