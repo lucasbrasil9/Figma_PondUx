@@ -1,15 +1,11 @@
-Autores - Lucas Paiva Brasil e Henrique Botti
-Link Repositório - https://github.com/lucasbrasil9/Figma_PondUx
-Link Figma - https://www.figma.com/design/2Ym1Z3dyeOlvnOJIxUNdGi/Pond-Figma-Ux?node-id=0-1&t=d0xctCHB6hz1GckX-1
-
-Breve Relato do Desenvolvimento:
+# Breve Relato do Desenvolvimento:
 
 Nossa atividade consistiu em criar um componente de card de notificação (NotificationCard) para um aplicativo Expo, utilizando NativeWind para estilização (similar ao Tailwind CSS).
 Começamos traduzindo um design do Figma para código React Native utilizando o plugin Figma to Code. No processo, enfrentamos alguns desafios comuns e interessantes:
 No manuseio de Ícones inicialmente exploramos o uso de um arquivo SVG para o ícone, o que nos levou a configurar declarações de tipo para SVGs. Em seguida, optamos por uma abordagem mais flexível utilizando a biblioteca @expo/vector-icons, que simplifica a adição e customização de ícones.
 Ao longo do processo, focamos em criar um componente reutilizável (NotificationCard) com props para título, mensagem, tempo, contagem de notificações, e customização de ícones. A tela NotificationsScreen foi criada para demonstrar o uso desses cards.
 
-Guia de Instruções para Acessar o App:
+# Guia de Instruções para Acessar o App:
 Aqui está um guia passo a passo para configurar e rodar o projeto:
 
 1. Pré-requisitos:
@@ -18,6 +14,7 @@ Expo CLI: Se ainda não o tem, instale globalmente: npm install -g expo-cli
 Dispositivo Móvel com Expo Go ou Emulador/Simulador:
 Expo Go: Aplicativo disponível na App Store (iOS) e Google Play Store (Android).
 Emulador/Simulador: Android Studio (para emuladores Android) ou Xcode (para simuladores iOS, requer macOS).
+
 2. Configuração do Projeto:
 Obtenha os Arquivos: o projeto estando em um repositório Git, clone-o. Caso contrário, certifique-se de que tem todos os arquivos do projeto (my-expo-app) em seu computador.
 Navegue até o Diretório: Abra seu terminal e navegue até a pasta raiz do projeto usando o comando 'cd my-expo-app'
@@ -47,3 +44,7 @@ Dependências Corrompidas: Se suspeitar de problemas com as dependências, você
 Apagar a pasta node_modules.
 Apagar o arquivo package-lock.json (ou yarn.lock).
 Reinstalar com npm install.
+
+- Autores - Lucas Paiva Brasil e Henrique Botti
+- [Link Repositório](https://github.com/lucasbrasil9/Figma_PondUx)
+- [Link Figma](https://www.figma.com/design/2Ym1Z3dyeOlvnOJIxUNdGi/Pond-Figma-Ux?node-id=0-1&t=d0xctCHB6hz1GckX-1)
